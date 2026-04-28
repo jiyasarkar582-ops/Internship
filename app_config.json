@@ -1,0 +1,183 @@
+{
+  "appName": "C2A Dynamic Engine",
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "mode": "dark"
+  },
+  "auth": {
+    "enabled": true,
+    "providers": [
+      "credentials"
+    ]
+  },
+  "language": "en",
+  "translations": {
+    "en": {
+      "dashboard": "Dashboard",
+      "entities": "Entities",
+      "signOut": "Sign Out",
+      "create": "Create",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "importCsv": "Import CSV",
+      "exportGithub": "Export to GitHub",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "createAccount": "Create an account",
+      "joinPlatform": "Join the Config-to-App Engine platform",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "alreadyHaveAccount": "Already have an account?",
+      "dontHaveAccount": "Don't have an account?",
+      "heroTitlePrefix": "Generate Apps from",
+      "heroTitleHighlight": "JSON Configs",
+      "heroSubtitle": "Stop writing boilerplate. Define your entities, fields, and relations in a single JSON file and instantly deploy a fully functional web app with Auth, DB, and UI.",
+      "getStarted": "Get Started for Free",
+      "viewDoc": "View Documentation"
+    },
+    "hi": {
+      "dashboard": "डैशबोर्ड",
+      "entities": "इकाइयों",
+      "signOut": "लॉग आउट",
+      "create": "बनाएं",
+      "edit": "संपादित करें",
+      "delete": "हटाएं",
+      "save": "सहेजें",
+      "cancel": "रद्द करें",
+      "importCsv": "CSV आयात करें",
+      "exportGithub": "GitHub पर निर्यात करें",
+      "signIn": "साइन इन करें",
+      "signUp": "साइन अप करें",
+      "createAccount": "खाता बनाएं",
+      "joinPlatform": "C2A इंजन प्लेटफॉर्म से जुड़ें",
+      "fullName": "पूरा नाम",
+      "emailAddress": "ईमेल पता",
+      "password": "पासवर्ड",
+      "alreadyHaveAccount": "क्या आपके पास पहले से खाता है?",
+      "dontHaveAccount": "क्या आपके पास खाता नहीं है?",
+      "heroTitlePrefix": "ऐप्स जेनरेट करें",
+      "heroTitleHighlight": "JSON कॉन्फ़िग से",
+      "heroSubtitle": "बॉयलरप्लेट लिखना बंद करें। एक JSON फ़ाइल में अपनी इकाइयों, फ़ील्ड्स और संबंधों को परिभाषित करें और तुरंत Auth, DB और UI के साथ एक पूर्ण कार्यात्मक वेब ऐप तैनात करें।",
+      "getStarted": "मुफ्त में शुरू करें",
+      "viewDoc": "दस्तावेज़ देखें"
+    },
+    "bn": {
+      "dashboard": "ড্যাশবোর্ড",
+      "entities": "এনটিটি",
+      "signOut": "সাইন আউট",
+      "create": "তৈরি করুন",
+      "edit": "সম্পাদনা করুন",
+      "delete": "মুছে ফেলুন",
+      "save": "সংরক্ষণ করুন",
+      "cancel": "বাতিল করুন",
+      "importCsv": "CSV আমদানি করুন",
+      "exportGithub": "GitHub এ রপ্তানি করুন",
+      "signIn": "সাইন ইন করুন",
+      "signUp": "সাইন আপ করুন",
+      "createAccount": "অ্যাকাউন্ট তৈরি করুন",
+      "joinPlatform": "C2A ইঞ্জিন প্ল্যাটফর্মে যোগ দিন",
+      "fullName": "পুরো নাম",
+      "emailAddress": "ইমেল ঠিকানা",
+      "password": "পাসওয়ার্ড",
+      "alreadyHaveAccount": "ইতোমধ্যে একটি অ্যাকাউন্ট আছে?",
+      "dontHaveAccount": "অ্যাকাউন্ট নেই?",
+      "heroTitlePrefix": "অ্যাপ তৈরি করুন",
+      "heroTitleHighlight": "JSON কনফিগ থেকে",
+      "heroSubtitle": "বয়লারপ্লেট লেখা বন্ধ করুন। একটি JSON ফাইলে আপনার এনটিটি, ফিল্ড এবং সম্পর্কগুলি সংজ্ঞায়িত করুন এবং সাথে সাথে Auth, DB এবং UI সহ একটি সম্পূর্ণ কার্যকরী ওয়েব অ্যাপ স্থাপন করুন।",
+      "getStarted": "বিনামূল্যে শুরু করুন",
+      "viewDoc": "ডকুমেন্টেশন দেখুন"
+    },
+    "es": {
+      "dashboard": "Panel",
+      "entities": "Entidades",
+      "signOut": "Cerrar Sesión",
+      "create": "Crear",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "importCsv": "Importar CSV",
+      "exportGithub": "Exportar a GitHub",
+      "signIn": "Iniciar sesión",
+      "signUp": "Registrarse",
+      "createAccount": "Crea una cuenta",
+      "joinPlatform": "Únete a la plataforma del Motor C2A",
+      "fullName": "Nombre completo",
+      "emailAddress": "Correo electrónico",
+      "password": "Contraseña",
+      "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+      "dontHaveAccount": "¿No tienes una cuenta?",
+      "heroTitlePrefix": "Generar aplicaciones desde",
+      "heroTitleHighlight": "Configuraciones JSON",
+      "heroSubtitle": "Deja de escribir código repetitivo. Define tus entidades, campos y relaciones en un solo archivo JSON e implementa instantáneamente una aplicación web totalmente funcional con Autenticación, Base de Datos y UI.",
+      "getStarted": "Comienza gratis",
+      "viewDoc": "Ver Documentación"
+    }
+  },
+  "entities": [
+    {
+      "name": "Task",
+      "slug": "tasks",
+      "icon": "CheckSquare",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "select",
+          "options": [
+            "Pending",
+            "In Progress",
+            "Completed"
+          ],
+          "default": "Pending"
+        },
+        {
+          "name": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "slug": "customers",
+      "icon": "Users",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "company",
+          "label": "Company",
+          "type": "string",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
