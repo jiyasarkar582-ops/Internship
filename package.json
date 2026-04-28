@@ -2,6 +2,9 @@
   "name": "c2a-engine",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +12,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@libsql/client": "^0.14.0",
     "bcryptjs": "^3.0.3",
     "clsx": "^2.1.1",
     "lucide-react": "^1.11.0",
@@ -17,8 +21,6 @@
     "papaparse": "^5.5.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^6.0.1",
     "tailwind-merge": "^3.5.0",
     "zustand": "^5.0.12"
   },
@@ -29,7 +31,6 @@
     "@types/papaparse": "^5.5.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/sqlite3": "^3.1.11",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
