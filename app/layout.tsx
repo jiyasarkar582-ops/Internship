@@ -4,6 +4,7 @@ import "./globals.css";
 import { getAppConfig } from "@/lib/config-parser";
 import AppShell from "@/components/AppShell";
 import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/lib/auth-options";
 import { I18nProvider } from "@/lib/i18n-context";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +22,7 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const session = await getServerSession();
+  const session = await getServerSession(authOptions);
   const config = getAppConfig();
 
   return (

@@ -2,6 +2,7 @@ export const runtime = "nodejs";
 
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/lib/auth-options";
 import fs from "fs";
 import path from "path";
 
@@ -9,7 +10,7 @@ const CONFIG_PATH = path.join(process.cwd(), "app_config.json");
 
 export async function GET() {
   try {
-    const session = await getServerSession();
+    const session = await getServerSession(authOptions);
     if (!session) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
@@ -27,7 +28,7 @@ export async function GET() {
 
 export async function POST(req: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getServerSession(authOptions);
     if (!session) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
@@ -56,7 +57,9 @@ export async function POST(req: NextRequest) {
 
     // The DB schema is lazily synced on next API call to /api/dynamic/[entity]
     // No need to force-sync here; the schema-generator runs on each request.
-    return NextResponse.json({ success: true });
+    // Note: On Vercel, writing to the filesystem is allowed only during build.
+    // Config changes via this API require a re-deployment to persist.
+    return NextResponse.json({ success: true, warning: "Config saved. Re-deploy to persist on Vercel." });
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
