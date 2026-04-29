@@ -11,43 +11,43 @@
 **The no-code app generator powered by JSON.**  
 Define your entities, fields, and theme in a single config file → get a full-stack web app with Auth, Database, REST APIs, and UI — instantly.
 
-[🚀 Live Demo](#) · [📖 Docs](#how-it-works) · [⭐ Star this repo](#)
+[ Live Demo](#) · [ Docs](#how-it-works) · [ Star this repo](#)
 
 </div>
 
 ---
 
-## 🧠 What Is C2A Engine?
+##  What Is C2A Engine?
 
 C2A Engine is a **dynamic full-stack app generator** that reads a `app_config.json` file and auto-generates:
 
-- 🗄️ **SQLite Database tables** — created and evolved on the fly
-- 🔌 **REST CRUD APIs** — generic routes for every entity
-- 🖥️ **React UI** — forms, tables, modals rendered dynamically
-- 🔐 **Authentication** — session-based auth via NextAuth
-- 🌍 **i18n** — multi-language support (EN, HI, BN, ES and more)
-- 🔧 **Visual App Builder** — edit your config through a browser UI
+-  **SQLite Database tables** — created and evolved on the fly
+-  **REST CRUD APIs** — generic routes for every entity
+-  **React UI** — forms, tables, modals rendered dynamically
+-  **Authentication** — session-based auth via NextAuth
+-  **i18n** — multi-language support (EN, HI, BN, ES and more)
+-  **Visual App Builder** — edit your config through a browser UI
 
 > Think: *"No-code app builder — powered by JSON instead of drag-and-drop."*
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| ⚡ **Instant Generation** | Drop a JSON config → full-stack app in milliseconds |
-| 🗄️ **Dynamic Schema** | Tables auto-create and evolve; never write a migration again |
-| 🔐 **Auth Out of the Box** | NextAuth credential login & route protection |
-| 🧩 **Modular UI** | `FormRenderer` and `TableRenderer` adapt to any field type |
-| 📤 **GitHub Export** | Push your generated app to a new GitHub repo in one click |
-| 🌍 **Multi-Language** | Switch language anywhere — EN, HI, BN, ES built in |
-| 📦 **CSV Import** | Bulk-import records via CSV with header mapping |
-| 🔧 **Visual App Builder** | Edit entities, fields, and theme from the browser |
+|  **Instant Generation** | Drop a JSON config → full-stack app in milliseconds |
+|  **Dynamic Schema** | Tables auto-create and evolve; never write a migration again |
+|  **Auth Out of the Box** | NextAuth credential login & route protection |
+|  **Modular UI** | `FormRenderer` and `TableRenderer` adapt to any field type |
+|  **GitHub Export** | Push your generated app to a new GitHub repo in one click |
+|  **Multi-Language** | Switch language anywhere — EN, HI, BN, ES built in |
+|  **CSV Import** | Bulk-import records via CSV with header mapping |
+|  **Visual App Builder** | Edit entities, fields, and theme from the browser |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 app_config.json
@@ -71,7 +71,7 @@ app_config.json
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 
@@ -103,7 +103,7 @@ NEXTAUTH_URL=http://localhost:3000
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) — your app is live! 🎉
+Open [http://localhost:3000](http://localhost:3000) — your app is live! 
 
 ---
 
@@ -153,7 +153,7 @@ The entire app is driven by `app_config.json`. Here's a full example:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 c2a-engine/
@@ -185,7 +185,7 @@ c2a-engine/
 
 ---
 
-## 🌍 Adding a New Language
+##  Adding a New Language
 
 Open `app_config.json` and add a new language key under `translations`:
 
@@ -200,18 +200,18 @@ The language switcher in the app header will automatically pick it up.
 
 ---
 
-## 🔧 Visual App Builder
+##  Visual App Builder
 
 Navigate to `/builder` after logging in to:
 
-- ✏️ Change your **App Name** and **Theme**
-- ➕ **Add / Remove Entities** visually
-- 🧩 **Add / Remove Fields** per entity with type, label, default value
-- 💾 **Save & Deploy** — config is written and DB schema evolves instantly
+-  Change your **App Name** and **Theme**
+-  **Add / Remove Entities** visually
+-  **Add / Remove Fields** per entity with type, label, default value
+-  **Save & Deploy** — config is written and DB schema evolves instantly
 
 ---
 
-## 📤 GitHub Export
+##  GitHub Export
 
 1. Go to the **Dashboard** → click **Export to GitHub**
 2. Enter your GitHub **Personal Access Token** (needs `repo` scope)
@@ -220,7 +220,7 @@ Navigate to `/builder` after logging in to:
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 Authentication is powered by **NextAuth.js** with credential-based login.
 
@@ -230,7 +230,7 @@ Authentication is powered by **NextAuth.js** with credential-based login.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -245,7 +245,7 @@ Authentication is powered by **NextAuth.js** with credential-based login.
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] PostgreSQL adapter
 - [ ] Multi-tenant support (per-user configs)
@@ -257,7 +257,7 @@ Authentication is powered by **NextAuth.js** with credential-based login.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -268,7 +268,7 @@ Contributions are welcome! Please:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -276,7 +276,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-Built with ❤️ by **Jiya Sarkar**  
-⭐ Star this repo if you found it useful!
+Built with  by **Jiya Sarkar**  
+ Star this repo if you found it useful!
 
 </div>
