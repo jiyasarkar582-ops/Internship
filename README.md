@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/NextAuth-Auth-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-3-38bdf8?style=for-the-badge&logo=tailwindcss" />
 
-# ⚙️ C2A Engine — Config-to-App Generator
+#  C2A Engine — Config-to-App Generator
 
 **The no-code app generator powered by JSON.**  
 Define your entities, fields, and theme in a single config file → get a full-stack web app with Auth, Database, REST APIs, and UI — instantly.
@@ -107,7 +107,7 @@ Open [http://localhost:3000](http://localhost:3000) — your app is live!
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 The entire app is driven by `app_config.json`. Here's a full example:
 
